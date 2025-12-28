@@ -19,6 +19,15 @@ export default function PokemonDetails({ pokemon }) {
         Pokemon Types ({details?.name})
       </h3>
 
+      {/* Pokémon Image */}
+      <div className="mb-6 flex justify-center">
+        <img
+          src={details.sprites.other["official-artwork"].front_default}
+          alt={details.name}
+          className="w-48 h-48 object-contain"
+        />
+      </div>
+
       <TypeTabs types={details?.types} />
     </div>
   );
