@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { fetchPokemonDetails } from "@/lib/api";
+import { fetchPokemonDetails } from "../../../lib/api";
 import TypeTabs from "./TypeTabs";
 
 export default function PokemonDetails({ pokemon }) {

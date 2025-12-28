@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { fetchTypeDetails } from "@/lib/api";
+import { fetchTypeDetails } from "../../../lib/api";
 
 export default function TypeTabs({ types }) {
   const [active, setActive] = useState(0);

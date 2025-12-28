@@ -3,8 +3,7 @@
 import { useEffect, useState } from "react";
 import PokemonTable from "./components/PokemonTable";
 import PokemonDetails from "./components/PokemonDetails.jsx";
-import { fetchPokemonList } from "@/lib/api";
-
+import {fetchPokemonList} from "../../lib/api"
 const LIMIT = 10;
 
 export default function PokePage() {
